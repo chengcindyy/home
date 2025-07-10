@@ -14,7 +14,7 @@ const mainBody = {
   icons: [
     {
       image: "fas fa-envelope",
-      url: "mailto:cindyy.cheng@outlook.com",
+      url: "mailto:chengcindyy@gmail.com",
     },
     {
       image: "fa-github",
@@ -51,11 +51,9 @@ const about = {
   profilePictureLink: "",
   // imageLink: "",
   // imageSize: 375,
-  message: `Full Stack Developer with 8+ months of hands-on experience in end-to-end web development. 
-            Demonstrated success in single-handedly developing and deploying enterprise-level applications. 
-            Specialized in React/Next.js development with strong expertise in process automation and optimization.`,
+  message: `Full-Stack Developer with 1+ year of hands-on experience in building and deploying modern web applications. Specialized in React, Next.js, Node.js, and AWS deployment workflows. Strong focus on automation, scripting, and API integration. Currently expanding into cybersecurity with skills in system auditing, secure coding, and log analysis.`,
   resume:
-    "https://docs.google.com/document/d/1q08x6GW39IhVbfJO4RV1k2fY2PC_5-T5/edit",
+    "https://docs.google.com/document/d/1pPc-2zwSfvy_-4l6ut1ODyWpD3TlBsurZRTyauQykZg/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -69,16 +67,17 @@ const repos = {
   gitHubUsername: "chengcindyy", //i.e."johnDoe12Gh"
   reposLength: 0,
   specificRepos: [
-    "BookNManage",
-    "PlatStyle",
-    "WeBuy",
+    "kali-mint-notes-and-scripts",
     "csv-convertor",
-    "CSIS4175-HMS",
+    "image_convertor",
+    "BookNManage",
+    "WeBuy",    
+    "CSIS4175-HMS"  
   ],
 };
 
 const demoLinks = {
-  // "BookNManage": "https://booknmanage-135dca335b60.herokuapp.com/"
+  "BookNManage": "https://booknmanage.codingwithcindy.com/"
 };
 
 // Leadership SECTION
@@ -110,23 +109,23 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "JavaScript/TypeScript", value: 90 },
-    { name: "Java", value: 80 },
-    { name: "Python", value: 80 },
-    { name: "AWS, Firebase", value: 80 },
-    { name: "Git/GitHub", value: 80 },
-    { name: "React, Next.js, HTML/CSS ", value: 90 },
-    { name: "Node.js, Express.js, MongoDB", value: 70 },
-    { name: "RESTful API", value: 70 },
+    { name: "JavaScript / TypeScript", value: 90 },
+    { name: "Python / Bash / Java", value: 80 },
+    { name: "React / Next.js / Tailwind", value: 90 },
+    { name: "Node.js / Express / MongoDB", value: 75 },
+    { name: "AWS (Amplify, Cognito), Firebase", value: 80 },
+    { name: "CI/CD, Git / GitHub", value: 85 },
+    { name: "Automation (Make.com, API Scripting)", value: 80 },
+    { name: "Security: Log Analysis / Auditing", value: 70 },
   ],
   softSkills: [
-    { name: "Self-management", value: 90 },
-    { name: "Goal-Oriented", value: 75 },
-    { name: "Collaboration", value: 80 },
-    { name: "Proactive", value: 90 },
-    { name: "Time-management", value: 85 },
-    { name: "Problem Solving", value: 80 },
+    { name: "Self-Directed Learning", value: 90 },
+    { name: "Collaboration & Feedback", value: 85 },
+    { name: "Agile Workflow", value: 80 },
+    { name: "Problem Solving", value: 85 },
     { name: "Organization", value: 90 },
+    { name: "Proactivity", value: 90 },
+    { name: "Time Management", value: 85 },
     { name: "Adaptability", value: 80 },
   ],
 };
@@ -136,8 +135,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for Full-Stack Web Developer or Java Software Developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "cindyy.cheng@outlook.com",
+    "I'm currently looking for roles in Cybersecurity, including Security Analyst and related positions. If you know of any opportunities, have questions, or just want to chat about tech and security, feel free to email me at",
+  email: "chengcindyy@gmail.com",
 };
 
 const experiences = {
@@ -147,7 +146,7 @@ const experiences = {
     {
       role: "Web Developer", // Here Add Company Name
       companylogo: require("../assets/img/Plantloop.png"),
-      date: "APR 2024 – Present",
+      date: " AUG 2024 - MAY 2025",
       description:
         "Developed a full-stack web application with React/Next.js, featuring a public website and internal admin system on AWS.",
       demo: "https://plantloopbiotech.com/",
@@ -155,10 +154,10 @@ const experiences = {
     {
       role: "Front-End Developer (Freelance)",
       companylogo: require("../assets/img/iov.png"),
-      date: "Feb 2024 – Present",
+      date: "FEB 2024 – JUN 2025",
       description:
         "Designed and implemented the frontend interface of an e-commerce website, handling both UI/UX design and frontend development.",
-      demo: "https://cindy.d39o8eqpx99mw9.amplifyapp.com/client",
+      demo: "https://sam.d39o8eqpx99mw9.amplifyapp.com/client",
     },
   ],
 };
