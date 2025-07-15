@@ -68,12 +68,14 @@ const repos = {
   reposLength: 0,
   specificRepos: [
     "kali-mint-notes-and-scripts",
-    "CSharp-GradeCalculator",
     "customer-churn-prediction",
+    "CSharp-GradeCalculator",
     "csv-convertor",
     "image_convertor",
     "BookNManage",
     "WeBuy",
+    "CSIS4175-HMS",
+    "platstyle"
   ],
 };
 
