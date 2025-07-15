@@ -51,7 +51,7 @@ const about = {
   profilePictureLink: "",
   // imageLink: "",
   // imageSize: 375,
-  message: `Full-Stack Developer with 1+ year of hands-on experience in building and deploying modern web applications. Specialized in React, Next.js, Node.js, and AWS deployment workflows. Strong focus on automation, scripting, and API integration. Currently expanding into cybersecurity with skills in system auditing, secure coding, and log analysis.`,
+  message: `Full-Stack Developer with 1+ year of hands-on experience in building and deploying modern web applications. Specialized in React, Next.js, Node.js, and AWS deployment workflows. Strong focus on automation, scripting, and API integration. Currently expanding into cybersecurity with skills in system auditing, secure coding, log analysis, and IT Support.`,
   resume:
     "https://docs.google.com/document/d/1pPc-2zwSfvy_-4l6ut1ODyWpD3TlBsurZRTyauQykZg/edit?usp=sharing",
 };
@@ -68,11 +68,12 @@ const repos = {
   reposLength: 0,
   specificRepos: [
     "kali-mint-notes-and-scripts",
+    "CSharp-GradeCalculator",
+    "customer-churn-prediction",
     "csv-convertor",
     "image_convertor",
     "BookNManage",
-    "WeBuy",    
-    "CSIS4175-HMS"  
+    "WeBuy",
   ],
 };
 
@@ -109,25 +110,27 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
+    { name: "C# / Windows Forms", value: 70 },
+    { name: "SQL / MS SQL Server", value: 70 },
     { name: "JavaScript / TypeScript", value: 90 },
-    { name: "Python / Bash / Java", value: 80 },
     { name: "React / Next.js / Tailwind", value: 90 },
+    { name: "Python / Bash / Java", value: 80 },
     { name: "Node.js / Express / MongoDB", value: 75 },
     { name: "AWS (Amplify, Cognito), Firebase", value: 80 },
     { name: "CI/CD, Git / GitHub", value: 85 },
-    { name: "Automation (Make.com, API Scripting)", value: 80 },
     { name: "Security: Log Analysis / Auditing", value: 70 },
   ],
   softSkills: [
-    { name: "Self-Directed Learning", value: 90 },
-    { name: "Collaboration & Feedback", value: 85 },
-    { name: "Agile Workflow", value: 80 },
-    { name: "Problem Solving", value: 85 },
-    { name: "Organization", value: 90 },
-    { name: "Proactivity", value: 90 },
+    { name: "Responsibility & Ownership", value: 90 },
+    { name: "Team Collaboration & Communication", value: 85 },
     { name: "Time Management", value: 85 },
+    { name: "Positive Attitude", value: 90 },
+    { name: "Customer-Oriented Mindset", value: 80 },
+    { name: "Self-Directed Learning", value: 90 },
+    { name: "Problem Solving", value: 85 },
     { name: "Adaptability", value: 80 },
-  ],
+    { name: "Initiative", value: 90 }
+  ]
 };
 
 // GET IN TOUCH SECTION
