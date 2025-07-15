@@ -113,12 +113,11 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "C# / Windows Forms", value: 70 },
-    { name: "SQL / MS SQL Server", value: 70 },
-    { name: "JavaScript / TypeScript", value: 90 },
-    { name: "React / Next.js / Tailwind", value: 90 },
+    { name: "SQL / MS SQL Server / MongoDB", value: 76 },
     { name: "Python / Bash / Java", value: 80 },
-    { name: "Node.js / Express / MongoDB", value: 75 },
-    { name: "AWS (Amplify, Cognito), Firebase", value: 80 },
+    { name: "JavaScript / TypeScript", value: 90 },  
+    { name: "AWS (Amplify, Cognito)", value: 80 },
+    { name: "HTML / CSS / Bootstrap", value: 90 },
     { name: "CI/CD, Git / GitHub", value: 85 },
     { name: "Security: Log Analysis / Auditing", value: 70 },
   ],
@@ -131,7 +130,7 @@ const skills = {
     { name: "Self-Directed Learning", value: 90 },
     { name: "Problem Solving", value: 85 },
     { name: "Adaptability", value: 80 },
-    { name: "Initiative", value: 90 }
+
   ]
 };
 
