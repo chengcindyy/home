@@ -51,9 +51,10 @@ const about = {
   profilePictureLink: "",
   // imageLink: "",
   // imageSize: 375,
-  message: `Full-Stack Developer with 1+ year of hands-on experience in building and deploying modern web applications. Specialized in React, Next.js, Node.js, and AWS deployment workflows. Strong focus on automation, scripting, and API integration. Currently expanding into cybersecurity with skills in system auditing, secure coding, log analysis, and IT Support.`,
+  message: `Software Developer with production experience in web systems, automation, and internal tools.
+            Comfortable leveraging AI tools to improve debugging, automation, and problem-solving efficiency.`,
   resume:
-    "https://docs.google.com/document/d/1pPc-2zwSfvy_-4l6ut1ODyWpD3TlBsurZRTyauQykZg/edit?usp=sharing",
+    "https://docs.google.com/document/d/1MrmsyOfmtH_YSY82ShLAGXo-PVuJc5G7PMiYesCVYSY/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -112,23 +113,23 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "C# / Windows Forms", value: 70 },
-    { name: "SQL / MS SQL Server / MongoDB", value: 76 },
-    { name: "Python / Bash / Java", value: 80 },
     { name: "JavaScript / TypeScript", value: 90 },  
-    { name: "AWS (Amplify, Cognito)", value: 80 },
-    { name: "HTML / CSS / Bootstrap", value: 90 },
+    { name: "Tailwind", value: 90 },
+    { name: "MongoDB / MS SQL Server", value: 85 },
     { name: "CI/CD, Git / GitHub", value: 85 },
+    { name: "AWS (Amplify, Cognito)", value: 80 },
+    { name: "Java", value: 80 },
     { name: "Security: Log Analysis / Auditing", value: 70 },
+    { name: "C# / Python / Bash", value: 70 },
   ],
   softSkills: [
-    { name: "Responsibility & Ownership", value: 90 },
-    { name: "Team Collaboration & Communication", value: 85 },
-    { name: "Time Management", value: 85 },
+    { name: "Problem Solving", value: 90 },
     { name: "Positive Attitude", value: 90 },
-    { name: "Customer-Oriented Mindset", value: 80 },
     { name: "Self-Directed Learning", value: 90 },
-    { name: "Problem Solving", value: 85 },
+    { name: "Team Collaboration", value: 85 },
+    { name: "Time Management", value: 85 },
+    { name: "Communication", value: 85 },
+    { name: "Customer-Oriented Mindset", value: 80 },
     { name: "Adaptability", value: 80 },
 
   ]
@@ -139,7 +140,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for roles in Cybersecurity, including Security Analyst and related positions. If you know of any opportunities, have questions, or just want to chat about tech and security, feel free to email me at",
+    "I'm currently seeking opportunities in Cybersecurity, particularly Security Analyst roles. With a strong background in web and full-stack development, I'm also open to web development positions that involve security-focused or system-level responsibilities. If you know of any opportunities, have questions, or just want to chat about tech and security, feel free to email me at",
   email: "chengcindyy@gmail.com",
 };
 
@@ -148,20 +149,20 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: "Web Developer", // Here Add Company Name
-      companylogo: require("../assets/img/Plantloop.png"),
+      role: "Software Developer (Web Systems)",
+      companylogo: require("../assets/img/Plantloop.webp"),
       date: " AUG 2024 - MAY 2025",
       description:
         "Developed a full-stack web application with React/Next.js, featuring a public website and internal admin system on AWS.",
       demo: "https://plantloopbiotech.com/",
     },
     {
-      role: "Front-End Developer (Freelance)",
-      companylogo: require("../assets/img/iov.png"),
-      date: "FEB 2024 – JUN 2025",
+      role: "Software Developer – Front-End Focus (Freelance)",
+      companylogo: require("../assets/img/newtype.webp"),
+      date: "FEB 2024 – DEC 2025",
       description:
-        "Designed and implemented the frontend interface of an e-commerce website, handling both UI/UX design and frontend development.",
-      demo: "https://sam.d39o8eqpx99mw9.amplifyapp.com/client",
+        "E-commerce project involving UI/UX development, Square payment API integration, and final-stage debugging and stabilization.",
+      demo: "https://newtypegraphics.com/",
     },
   ],
 };

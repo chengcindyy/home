@@ -6,7 +6,17 @@ const ExperienceCard = ({ data }) => {
   return (
     <Col lg="6">
       <div className="pb-5 text-center">
-        <img className=" bg-white mb-3" src={data.companylogo} alt="" />
+        <img
+          className=" bg-white mb-3"
+          src={data.companylogo}
+          alt={`${data.company} logo`}
+          style={{
+            height: "80px",
+            width: "100%",
+            objectFit: "contain",
+            padding: "6px 0"
+          }}
+        />
         <p className="lead">
           {data.role}
           <br />
