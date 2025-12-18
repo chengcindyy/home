@@ -67,16 +67,11 @@ const repos = {
   heading: "Academic & Side Projects",
   gitHubUsername: "chengcindyy", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: [
-    "kali-mint-notes-and-scripts",
-    "customer-churn-prediction",
-    "CSharp-GradeCalculator",
+  specificRepos: [ 
+    "BookNManage",
     "csv-convertor",
     "image_convertor",
-    "BookNManage",
-    "WeBuy",
-    "CSIS4175-HMS",
-    "platstyle"
+    "CSharp-GradeCalculator",
   ],
 };
 
