@@ -10,7 +10,7 @@ const mainBody = {
   middleName: "",
   lastName: "Cheng",
   message:
-    " Beginning my adventure in tech innovation, growing with every line of code. ",
+    "Full-Stack Developer shipping real products for real users — from e-commerce platforms to automation tools.",
   icons: [
     {
       image: "fas fa-envelope",
@@ -32,29 +32,48 @@ const mainBody = {
 };
 
 // ABOUT SECTION
-// If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
-//a) your Instagram username
-//      i.e:profilePictureLink:"johnDoe123",
-//b) a link to an hosted image
-//      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
-//c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
-//d) If you do not want any picture to be displayed, just leave it empty :)
-//      i.e: profilePictureLink: "",
-// For Resume either provide link to your resume or import from "editable-stuff" directory
-//     i.e resume: require("../editable-stuff/resume.pdf"),
-//         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
-
 const about = {
   show: true,
   heading: "About Me",
   profilePictureLink: "",
-  // imageLink: "",
-  // imageSize: 375,
-  message: `Software Developer with production experience in web systems, automation, and internal tools.
-            Comfortable leveraging AI tools to improve debugging, automation, and problem-solving efficiency.`,
+  message: `Full-Stack Developer with hands-on experience delivering production web applications,
+            automation tools, and internal systems for real clients and users.
+            I work across the full stack — React / Next.js frontends, Node.js / tRPC backends,
+            PostgreSQL and MongoDB, and cloud deployment on AWS and Fly.dev.
+            I enjoy identifying real problems and building tools that people actually use.`,
   resume:
-    "https://docs.google.com/document/d/1MrmsyOfmtH_YSY82ShLAGXo-PVuJc5G7PMiYesCVYSY/edit?usp=sharing",
+    "https://docs.google.com/document/d/10_zorHdaT9gmI108tU1LDBmvpIg2jonBZHDs5QtvgzA/edit?usp=sharing",
+};
+
+// EXPERIENCES SECTION
+const experiences = {
+  show: true,
+  heading: "Experiences",
+  data: [
+    {
+      role: "Freelance Developer & Client Lead",
+      companylogo: require("../assets/img/newtype.webp"),
+      date: "Jan 2024 – Dec 2025",
+      description:
+        "Sole client contact for a 20-month e-commerce platform engagement for a Vancouver print shop. " +
+        "Owned all frontend and admin UI — recursive category nav, multi-option product pages, shopping cart, " +
+        "order tracking, and a full admin panel with sales dashboard, order/product/customer/promotion management. " +
+        "Integrated Square Payments and AWS S3; managed Amplify Gen1→Gen2 migration. ",
+      demo: "https://newtypegraphics.com/",
+    },
+    {
+      role: "Web Developer / IT Support",
+      companylogo: require("../assets/img/Lastic.webp"),
+      date: "Mar 2024 – Jan 2025",
+      description:
+        "Sole developer on a corporate website (Next.js + Tailwind) for Plantloop Biotech — " +
+        "designed, built, and deployed to AWS Amplify within 6 weeks. " +
+        "Subsequently built an internal admin system with Cognito auth, MongoDB, inventory CRUD, " +
+        "and auto-serialized document management, deployed to production with real company data. " +
+        "Also built a Java tool to automate Shopify order extraction and Black Cat shipping export, " +
+        "eliminating annual mis-shipment errors during cherry export season.",
+    },
+  ],
 };
 
 // PROJECTS SECTION
@@ -64,43 +83,19 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Academic & Side Projects",
+  heading: "Projects",
   gitHubUsername: "chengcindyy", //i.e."johnDoe12Gh"
   reposLength: 0,
   specificRepos: [ 
-    "BookNManage",
-    "csv-convertor",
-    "image_convertor",
-    "CSharp-GradeCalculator",
+    "work-hour-tracker",   // PWA — real users, best showcase
+    "csv-convertor",      // Java tool — real business impact
+    "image_convertor",      // Java tool
+    "kali-mint-notes-and-scripts",
   ],
 };
 
 const demoLinks = {
-  "BookNManage": "https://booknmanage.codingwithcindy.com/"
-};
-
-// Leadership SECTION
-const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    {
-      // img: require("../editable-stuff/hashirshoaeb.png"),
-      label: "First slide label",
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-    },
-    {
-      // img: require("../editable-stuff/hashirshoaeb.png"),
-      label: "Second slide label",
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-    },
-  ],
-  imageSize: {
-    width: "615",
-    height: "450",
-  },
+  "work-hour-tracker": "https://work-hour-tracker.fly.dev/"
 };
 
 // SKILLS SECTION
@@ -108,26 +103,30 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "JavaScript / TypeScript", value: 90 },  
-    { name: "Tailwind", value: 90 },
-    { name: "MongoDB / MS SQL Server", value: 85 },
-    { name: "CI/CD, Git / GitHub", value: 85 },
-    { name: "AWS (Amplify, Cognito)", value: 80 },
-    { name: "Java", value: 80 },
-    { name: "Security: Log Analysis / Auditing", value: 70 },
-    { name: "C# / Python / Bash", value: 70 },
+    { name: "JavaScript / TypeScript", value: 90 },
+    { name: "React / Next.js / Vite", value: 90 },
+    { name: "Node.js / tRPC / REST APIs", value: 85 },
+    { name: "PostgreSQL / MongoDB", value: 85 },
+    { name: "AWS (Amplify, S3, Route 53)", value: 80 },
+    { name: "Docker / Fly.dev / GitHub Actions", value: 80 },
+    { name: "Java / Bash / Linux", value: 75 },
+    { name: "Cybersecurity (Linux hardening, Kali, GPG)", value: 70 },
   ],
   softSkills: [
     { name: "Problem Solving", value: 90 },
-    { name: "Positive Attitude", value: 90 },
     { name: "Self-Directed Learning", value: 90 },
+    { name: "Product Thinking", value: 90 },
     { name: "Team Collaboration", value: 85 },
-    { name: "Time Management", value: 85 },
     { name: "Communication", value: 85 },
-    { name: "Customer-Oriented Mindset", value: 80 },
+    { name: "Time Management", value: 85 },
+    { name: "Customer-Oriented Mindset", value: 85 },
     { name: "Adaptability", value: 80 },
+  ],
+};
 
-  ]
+// Leadership SECTION
+const leadership = {
+  show: false,
 };
 
 // GET IN TOUCH SECTION
@@ -135,37 +134,12 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently seeking opportunities in Cybersecurity, particularly Security Analyst roles. With a strong background in web and full-stack development, I'm also open to web development positions that involve security-focused or system-level responsibilities. If you know of any opportunities, have questions, or just want to chat about tech and security, feel free to email me at",
+    "I'm currently open to Full-Stack Developer and Web Developer roles across Canada. " +
+    "I bring hands-on experience shipping real products for real clients — " +
+    "from React frontends to cloud-deployed backends. " +
+    "Open to relocating within Canada. Feel free to reach out at",
   email: "chengcindyy@gmail.com",
 };
-
-const experiences = {
-  show: true,
-  heading: "Experiences",
-  data: [
-    {
-      role: "Software Developer (Web Systems)",
-      companylogo: require("../assets/img/Plantloop.webp"),
-      date: " AUG 2024 - MAY 2025",
-      description:
-        "Developed a full-stack web application with React/Next.js, featuring a public website and internal admin system on AWS.",
-      demo: "https://plantloopbiotech.com/",
-    },
-    {
-      role: "Software Developer – Front-End Focus (Freelance)",
-      companylogo: require("../assets/img/newtype.webp"),
-      date: "FEB 2024 – DEC 2025",
-      description:
-        "E-commerce project involving UI/UX development, Square payment API integration, and final-stage debugging and stabilization.",
-      demo: "https://newtypegraphics.com/",
-    },
-  ],
-};
-
-// Blog SECTION
-// const blog = {
-//   show: false,
-// };
 
 export {
   navBar,
